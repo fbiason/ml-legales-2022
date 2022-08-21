@@ -1,18 +1,4 @@
 /*HEADER*/
-.header {
-  z-index: 997;
-  position: sticky;
-  padding: 20px 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(151, 148, 148, 0.541);
-  transition: all 0.5s; }
-
-.header .logo img {
-  max-height: 50px;
-  margin-right: 6px; }
-
 .header .logo img h1 {
   font-size: 24px;
   font-weight: 700;
@@ -34,6 +20,11 @@
 .header-scrolled,
 .header-inner-pages {
   background: rgba(0, 0, 0, 0.8); }
+
+header.abajo {
+  background: rgba(0, 0, 0, 0.856);
+  padding: 15px 20px;
+  transition: 0.5s; }
 
 /* Fuentes */
 :root {
