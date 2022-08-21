@@ -1,4 +1,5 @@
 /*HEADER*/
+
 .header {
   z-index: 997;
   position: sticky;
@@ -30,11 +31,6 @@
 .linea {
   padding: 0.5rem;
   border-bottom: 0.5px solid rgba(204, 204, 204, 0.305); }
-
-.header-scrolled,
-.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8); }
-
 /* Fuentes */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
