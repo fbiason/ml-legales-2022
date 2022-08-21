@@ -1,0 +1,43 @@
+/*HEADER*/
+.header {
+    z-index: 997;
+    position: sticky;
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(151, 148, 148, 0.541);
+    transition: all 0.5s;
+}
+
+.header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+}
+
+.header .logo img h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0;
+    font-family: var(--font-primary);
+}
+
+.header .logo img h1 span {
+    color: var(--color-primary);
+}
+
+.img-header {
+    width: 100%;
+    height: 3rem;
+}
+
+.linea {
+    padding: 0.5rem;
+    border-bottom: 0.5px solid rgba(204, 204, 204, 0.305);
+}
+
+.header-scrolled,
+.header-inner-pages {
+    background: rgba(0, 0, 0, 0.8);
+}
