@@ -296,7 +296,7 @@
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -382,7 +382,7 @@
 
 .hero .carousel {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 80px 0;
   margin: 0;
   position: relative;
@@ -401,7 +401,7 @@
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(89, 89, 89, 0.832);
+  background-color: rgba(30, 29, 29, 0.832);
   position: absolute;
   inset: 0;
 }
@@ -426,7 +426,6 @@
   font-weight: 700;
   position: relative;
 }
-
 
 @media (max-width: 768px) {
   .hero .info h2 {
