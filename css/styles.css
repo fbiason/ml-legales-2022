@@ -1,5 +1,4 @@
 /*HEADER*/
-
 .header {
   z-index: 997;
   position: sticky;
@@ -31,6 +30,11 @@
 .linea {
   padding: 0.5rem;
   border-bottom: 0.5px solid rgba(204, 204, 204, 0.305); }
+
+.header-scrolled,
+.header-inner-pages {
+  background: rgba(0, 0, 0, 0.8); }
+
 /* Fuentes */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
@@ -55,7 +59,8 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #f5f6f7; }
 
 a {
   color: var(--color-primary);
@@ -98,55 +103,6 @@ section {
     max-width: 60%; } }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 140px 0 60px 0;
-  min-height: 30vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.breadcrumbs:before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  inset: 0; }
-
-.breadcrumbs h2 {
-  font-size: 56px;
-  font-weight: 500;
-  color: #fff;
-  font-family: var(--font-secondary); }
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-primary); }
-
-.breadcrumbs ol a {
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s; }
-
-.breadcrumbs ol a:hover {
-  text-decoration: underline; }
-
-.breadcrumbs ol li + li {
-  padding-left: 10px; }
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #fff;
-  content: "/"; }
-
-/*--------------------------------------------------------------
   # Scroll top button
   --------------------------------------------------------------*/
 .scroll-top {
@@ -161,11 +117,10 @@ section {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s; }
-
-.scroll-top i {
-  font-size: 24px;
-  color: var(--color-secondary);
-  line-height: 0; }
+  .scroll-top i {
+    font-size: 24px;
+    color: var(--color-secondary);
+    line-height: 0; }
 
 .scroll-top:hover {
   background: #d6b486;
@@ -413,117 +368,6 @@ section {
     background: rgba(0, 0, 0, 0.6);
     z-index: 9996; } }
 
-/*--------------------------------------------------------------
-# Get Started Section
---------------------------------------------------------------*/
-.get-started .content {
-  padding: 30px 0; }
-
-.get-started .content h3 {
-  font-size: 36px;
-  color: var(--color-secondary);
-  font-weight: 600;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-  position: relative; }
-
-.get-started .content h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: var(--color-primary);
-  left: 0;
-  bottom: 0; }
-
-.get-started .content p {
-  font-size: 14px; }
-
-.get-started .php-email-form {
-  background: #fff;
-  padding: 30px;
-  height: 100%; }
-
-@media (max-width: 575px) {
-  .get-started .php-email-form {
-    padding: 20px; } }
-
-.get-started .php-email-form h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
-.get-started .php-email-form p {
-  font-size: 14px;
-  margin-bottom: 20px; }
-
-.get-started .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600; }
-
-.get-started .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600; }
-
-.get-started .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px; }
-
-.get-started .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite; }
-
-.get-started .php-email-form input,
-.get-started .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0; }
-
-.get-started .php-email-form input:focus,
-.get-started .php-email-form textarea:focus {
-  border-color: var(--color-primary); }
-
-.get-started .php-email-form input {
-  padding: 12px 15px; }
-
-.get-started .php-email-form textarea {
-  padding: 12px 15px; }
-
-.get-started .php-email-form button[type="submit"] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px; }
-
-.get-started .php-email-form button[type="submit"]:hover {
-  background: #d6b486; }
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg); }
@@ -637,10 +481,6 @@ h2.linea2 span {
     padding-right: 4px;
     color: var(--color-primary); }
 
-.mapa {
-  border-style: solid;
-  border-width: 1px; }
-
 .team img {
   width: 75%;
   height: 100%; }
@@ -701,63 +541,6 @@ h2.linea2 span {
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px; }
-
-.hero .info .btn-get-started {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  border: 2px solid var(--color-primary); }
-
-.hero .info .btn-get-started:hover {
-  background: var(--color-primary); }
-
-.hero .carousel-control-prev {
-  justify-content: start; }
-
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px; } }
-
-.hero .carousel-control-next {
-  justify-content: end; }
-
-@media (min-width: 640px) {
-  .hero .carousel-control-next {
-    padding-right: 15px; } }
-
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
-  line-height: 0;
-  background: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  z-index: 3;
-  transition: 0.3s; }
-
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
-  opacity: 0.5; }
-
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
-  opacity: 0.9; }
 
 /*--------------------------------------------------------------
 # Footer
