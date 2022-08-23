@@ -189,7 +189,7 @@ header.abajo {
   .why-us .row {
     display: inline; }
   .why-us .img {
-    min-height: 400px; }
+    min-height: 10px; }
   .why-us .content {
     padding-top: 30px; }
   .why-us .accordion-list {
@@ -197,9 +197,7 @@ header.abajo {
 
 @media (max-width: 575px) {
   .why-us {
-    display: flex; }
-  .why-us .img {
-    min-height: 200px; } }
+    display: flex; } }
 
 /*AREAS PRACTICAS*/
 .services .service-item {

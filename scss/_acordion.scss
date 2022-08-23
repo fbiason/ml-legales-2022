@@ -116,7 +116,7 @@
   }
 
   .why-us .img {
-    min-height: 400px;
+    min-height: 10px;
   }
 
   .why-us .content {
@@ -130,8 +130,5 @@
 @media (max-width: 575px) {
   .why-us {
     display: flex;
-  }
-  .why-us .img {
-    min-height: 200px;
   }
 }
