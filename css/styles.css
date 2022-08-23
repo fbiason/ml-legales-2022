@@ -55,12 +55,19 @@ header.abajo {
   .hero .info {
     position: absolute;
     inset: 0;
-    z-index: 2; }
+    z-index: 2;
+    margin-block-end: 10rem; }
+
+@media (max-width: 1024px) {
+  .hero .info {
+    margin-block-end: 0rem; }
+  .hero .info h2 {
+    font-size: 40px;
+    padding-bottom: 0px; } }
 
 @media (max-width: 768px) {
   .hero .info {
-    padding: 40px;
-    margin-block-end: 10rem; } }
+    padding: 40px; } }
 
 .info h2 {
   color: rgba(228, 228, 228, 0.92);
@@ -83,6 +90,8 @@ header.abajo {
   font-size: 18px; }
 
 @media (max-width: 425px) {
+  .hero .info {
+    margin-block-end: 5rem; }
   .hero .info h2 img {
     display: none; } }
 
