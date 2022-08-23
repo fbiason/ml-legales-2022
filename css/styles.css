@@ -86,6 +86,9 @@ header.abajo {
   .hero .info h2 img {
     display: none; } }
 
+.why-us {
+  display: none; }
+
 .why-us .content {
   padding: 60px 100px 0 100px; }
 
@@ -172,6 +175,10 @@ header.abajo {
     padding-right: 0; } }
 
 @media (max-width: 992px) {
+  .why-us {
+    display: block; }
+  .why-us .row {
+    display: inline; }
   .why-us .img {
     min-height: 400px; }
   .why-us .content {
@@ -180,6 +187,8 @@ header.abajo {
     padding-bottom: 30px; } }
 
 @media (max-width: 575px) {
+  .why-us {
+    display: flex; }
   .why-us .img {
     min-height: 200px; } }
 
@@ -220,6 +229,14 @@ header.abajo {
     font-size: 14px;
     margin-bottom: 0;
     color: #73695d; }
+
+@media (max-width: 992px) {
+  .services {
+    display: none; } }
+
+@media (max-width: 575px) {
+  .services {
+    display: none; } }
 
 /*NOSOTROS*/
 .nosotros {
@@ -535,7 +552,6 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
   overflow: hidden; }
 
 .section-bg {

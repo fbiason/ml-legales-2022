@@ -44,3 +44,14 @@
     color: #73695d;
   }
 }
+
+@media (max-width: 992px) {
+  .services {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .services {
+    display: none;
+  }
+}
