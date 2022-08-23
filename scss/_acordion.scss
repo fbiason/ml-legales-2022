@@ -1,4 +1,8 @@
 ///----------ACORDION-----------//////
+
+.why-us {
+  display: none;
+}
 .why-us .content {
   padding: 60px 100px 0 100px;
 }
@@ -104,6 +108,13 @@
   }
 }
 @media (max-width: 992px) {
+  .why-us {
+    display: block;
+  }
+  .why-us .row {
+    display: inline;
+  }
+
   .why-us .img {
     min-height: 400px;
   }
@@ -117,6 +128,9 @@
   }
 }
 @media (max-width: 575px) {
+  .why-us {
+    display: flex;
+  }
   .why-us .img {
     min-height: 200px;
   }
