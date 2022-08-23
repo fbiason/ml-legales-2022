@@ -180,6 +180,105 @@ header.abajo {
   .why-us .img {
     min-height: 200px; } }
 
+/*AREAS PRACTICAS*/
+.services .service-item {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  background: #fff;
+  height: 24rem;
+  border-width: 0.1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #d7ccc8; }
+  .services .service-item .icon {
+    height: 65px; }
+    .services .service-item .icon i {
+      color: #73695d;
+      font-size: 40px;
+      transition: ease-in-out 0.3s;
+      z-index: 2;
+      position: relative;
+      line-height: 1.8; }
+    .services .service-item .icon .imgServicios {
+      width: 50px; }
+  .services .service-item h3 {
+    color: #73695d;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px solid #ebebed;
+    transition: 0.3s; }
+  .services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #73695d; }
+
+/*NOSOTROS*/
+.nosotros {
+  text-align: justify; }
+
+.features .nav-tabs {
+  border: 0; }
+
+.features .nav-link {
+  padding: 15px 0;
+  transition: 0.3s;
+  color: var(--color-secondary);
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  border-bottom: 4px solid #e2e4e6; }
+  .features .nav-link i {
+    padding-right: 15px;
+    font-size: 48px; }
+  .features .nav-link h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0; }
+
+.features .tab-content {
+  margin-top: 30px; }
+
+.features .tab-pane h3 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0; }
+  .features .tab-pane ul li {
+    padding-top: 10px; }
+  .features .tab-pane ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: var(--color-primary); }
+
+.team img {
+  width: 75%;
+  height: 100%; }
+
+.team p {
+  margin-top: 3rem; }
+
+.team .h4-dra {
+  margin-top: 2rem; }
+
+.team .social-links {
+  font-size: 3em;
+  margin-top: 15rem; }
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -747,102 +846,3 @@ h2.linea2:before {
 h2.linea2 span {
   background: #f5f6f7;
   padding: 0 15px; }
-
-/*SERVICIOS*/
-.services .service-item {
-  display: flex;
-  flex-direction: column;
-  padding: 35px;
-  background: #fff;
-  height: 24rem;
-  border-width: 0.1px;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: #d7ccc8; }
-  .services .service-item .icon {
-    height: 65px; }
-    .services .service-item .icon i {
-      color: #73695d;
-      font-size: 40px;
-      transition: ease-in-out 0.3s;
-      z-index: 2;
-      position: relative;
-      line-height: 1.8; }
-    .services .service-item .icon .imgServicios {
-      width: 50px; }
-  .services .service-item h3 {
-    color: #73695d;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-    padding-bottom: 8px;
-    font-size: 22px;
-    position: relative;
-    display: inline-block;
-    border-bottom: 2px solid #ebebed;
-    transition: 0.3s; }
-  .services .service-item p {
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-    color: #73695d; }
-
-/*NOSOTROS*/
-.nosotros {
-  text-align: justify; }
-
-.features .nav-tabs {
-  border: 0; }
-
-.features .nav-link {
-  padding: 15px 0;
-  transition: 0.3s;
-  color: var(--color-secondary);
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  height: 100%;
-  border: 0;
-  border-bottom: 4px solid #e2e4e6; }
-  .features .nav-link i {
-    padding-right: 15px;
-    font-size: 48px; }
-  .features .nav-link h4 {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0; }
-
-.features .tab-content {
-  margin-top: 30px; }
-
-.features .tab-pane h3 {
-  font-weight: 700;
-  font-size: 32px;
-  position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
-.features .tab-pane ul {
-  list-style: none;
-  padding: 0; }
-  .features .tab-pane ul li {
-    padding-top: 10px; }
-  .features .tab-pane ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: var(--color-primary); }
-
-.team img {
-  width: 75%;
-  height: 100%; }
-
-.team p {
-  margin-top: 3rem; }
-
-.team .h4-dra {
-  margin-top: 2rem; }
-
-.team .social-links {
-  font-size: 3em;
-  margin-top: 15rem; }

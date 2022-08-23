@@ -1,0 +1,75 @@
+/*NOSOTROS*/
+
+.nosotros {
+  text-align: justify;
+}
+.features {
+  .nav-tabs {
+    border: 0;
+  }
+
+  .nav-link {
+    padding: 15px 0;
+    transition: 0.3s;
+    color: var(--color-secondary);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 4px solid #e2e4e6;
+
+    i {
+      padding-right: 15px;
+      font-size: 48px;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  .tab-content {
+    margin-top: 30px;
+  }
+
+  .tab-pane {
+    h3 {
+      font-weight: 700;
+      font-size: 32px;
+      position: relative;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        padding-top: 10px;
+      }
+      i {
+        font-size: 20px;
+        padding-right: 4px;
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+.team img {
+  width: 75%;
+  height: 100%;
+}
+.team p {
+  margin-top: 3rem;
+}
+.team .h4-dra {
+  margin-top: 2rem;
+}
+.team .social-links {
+  font-size: 3em;
+  margin-top: 15rem;
+}
