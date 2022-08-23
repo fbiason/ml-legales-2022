@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  overflow-x: hidden;
+  padding: 0;
+
+  .carousel {
+    width: 100%;
+    min-height: 80vh;
+    padding: 80px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .carousel-item {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+
+  .carousel-item::before {
+    content: "";
+    background-color: rgba(30, 29, 29, 0.832);
+    position: absolute;
+    inset: 0;
+  }
+
+  .info {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+}
+@media (max-width: 768px) {
+  .hero .info {
+    padding: 0 50px;
+  }
+}
+.info h2 {
+  color: rgba(228, 228, 228, 0.92);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .hero .info h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.hero .info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  .hero .info h2 img {
+    display: none;
+  }
+}
