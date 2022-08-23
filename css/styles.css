@@ -55,8 +55,7 @@ header.abajo {
   .hero .info {
     position: absolute;
     inset: 0;
-    z-index: 2;
-    margin-block-end: 10rem; }
+    z-index: 2; }
 
 @media (max-width: 1024px) {
   .hero .info {
