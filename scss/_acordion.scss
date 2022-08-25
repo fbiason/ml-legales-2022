@@ -130,8 +130,14 @@
 @media (max-width: 575px) {
   .why-us {
     display: flex;
+    padding-bottom: 0px;
   }
   .why-us .img {
     min-height: 200px;
   }
 }
+/*
+@media (max-width: 425px){
+  section .why-us .sectionAcordeon{
+  }
+}*/
