@@ -98,13 +98,12 @@ section {
   text-align: center;
   padding-bottom: 70px;
   margin-top: 3rem;
-}
-
-.section-header h2 {
-  font-size: 32px;
-  font-weight: 700;
-  position: relative;
-  color: #73695d;
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    color: #73695d;
+  }
 }
 
 @media (min-width: 1199px) {
@@ -493,4 +492,10 @@ h2.linea2:before {
 h2.linea2 span {
   background: #f5f6f7;
   padding: 0 15px;
+}
+
+.nosotros{
+  ul{
+    list-style: none;
+  }
 }

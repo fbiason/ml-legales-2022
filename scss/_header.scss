@@ -5,10 +5,9 @@
   color: black;
   margin-bottom: 0;
   font-family: var(--font-primary);
-}
-
-.header .logo img h1 span {
-  color: var(--color-primary);
+  span {
+    color: var(--color-primary);
+  }
 }
 
 .img-header {
