@@ -2,26 +2,22 @@
 
 .why-us {
   display: none;
-}
-.why-us .content {
-  padding: 60px 100px 0 100px;
-}
-
-.why-us .content h3 {
-  font-weight: 400;
-  font-size: 34px;
-  color: #070505;
-}
-
-.why-us .content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 5px;
-}
-
-.why-us .content p {
-  font-size: 15px;
-  color: #848484;
+  .content {
+    padding: 60px 100px 0 100px;
+    h3 {
+      font-weight: 400;
+      font-size: 34px;
+      color: #070505;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 5px;
+    }p {
+      font-size: 15px;
+      color: #848484;
+    }
+  }
 }
 
 .why-us .img {
@@ -32,52 +28,45 @@
 
 .why-us .accordion-list {
   padding: 0 100px 60px 100px;
-}
-
-.why-us .accordion-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.why-us .accordion-list li + li {
-  margin-top: 15px;
-}
-
-.why-us .accordion-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-}
-
-.why-us .accordion-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding-right: 30px;
-  outline: none;
-  cursor: pointer;
-}
-
-.why-us .accordion-list span {
-  color: #0a0606;
-  font-weight: 600;
-  font-size: 18px;
-  padding-right: 10px;
-}
-
-.why-us .accordion-list i {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.why-us .accordion-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  li + li {
+    margin-top: 15px;
+  }
+  li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 30px;
+    outline: none;
+    cursor: pointer;
+  }
+  span {
+    color: #0a0606;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
 }
 
 .why-us .accordion-list .icon-show {
@@ -133,8 +122,3 @@
     padding-bottom: 0px;
   }
 }
-/*
-@media (max-width: 425px){
-  section .why-us .sectionAcordeon{
-  }
-}*/
