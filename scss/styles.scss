@@ -96,8 +96,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 70px;
-  margin-top: 3rem;
+  padding: 4rem 0rem 4rem 0rem;
   h2 {
     font-size: 32px;
     font-weight: 700;
@@ -464,7 +463,9 @@ h2.linea2 span {
   background: #f5f6f7;
   padding: 0 15px;
 }
-
+.features{
+  padding: 6rem 0rem 0rem 0rem;
+}
 .nosotros {
   ul {
     list-style: none;
