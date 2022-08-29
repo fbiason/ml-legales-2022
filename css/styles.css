@@ -856,3 +856,7 @@ h2.linea2 span {
 
 .nosotros ul {
   list-style: none; }
+
+@media (max-width: 425px) {
+  .features {
+    padding-top: 0rem; } }
