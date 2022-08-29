@@ -57,8 +57,8 @@ header.abajo {
     z-index: 2; }
 
 .img-logo {
-  width: 40%;
-  height: 40%; }
+  width: 80%;
+  height: 80%; }
 
 @media (max-width: 1024px) {
   .hero .info {
@@ -93,9 +93,12 @@ header.abajo {
 
 @media (max-width: 425px) {
   .hero .info {
-    margin-block-end: 5rem; }
+    margin-block-end: 5rem;
+    padding-block-end: 20rem; }
   .hero .info h2 img {
-    display: none; } }
+    display: none; }
+  .hero {
+    max-height: 40vh; } }
 
 .why-us {
   display: none; }
