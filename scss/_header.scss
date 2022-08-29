@@ -36,8 +36,12 @@ header.abajo {
 }
 
 @media (max-width: 1024px) {
-  .areas {
+  .servicios2 {
     display: none;
+  }
+
+  .areas {
+    display: flex;
   }
 }
 
@@ -45,10 +49,18 @@ header.abajo {
   .servicios2 {
     display: none;
   }
+
+  .areas {
+    display: flex;
+  }
 }
 
 @media (max-width: 425px) {
   .servicios2 {
     display: none;
+  }
+
+  .areas {
+    display: flex;
   }
 }
