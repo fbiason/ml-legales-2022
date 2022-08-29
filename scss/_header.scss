@@ -30,3 +30,25 @@ header.abajo {
   padding: 15px 20px;
   transition: 0.5s;
 }
+
+.areas {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .areas {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicios2 {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .servicios2 {
+    display: none;
+  }
+}

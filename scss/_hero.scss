@@ -84,6 +84,19 @@
 @media (max-width: 425px) {
   .hero .info {
     margin-block-end: 5rem;
+    padding-block-end: 5rem;
+  }
+  .hero .info h2 img {
+    display: none;
+  }
+  .hero {
+    max-height: 70vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero .info {
+    margin-block-end: 5rem;
     padding-block-end: 20rem;
   }
   .hero .info h2 img {
