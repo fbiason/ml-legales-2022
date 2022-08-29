@@ -29,16 +29,22 @@ header.abajo {
   display: none; }
 
 @media (max-width: 1024px) {
+  .servicios2 {
+    display: none; }
   .areas {
-    display: none; } }
+    display: flex; } }
 
 @media (max-width: 768px) {
   .servicios2 {
-    display: none; } }
+    display: none; }
+  .areas {
+    display: flex; } }
 
 @media (max-width: 425px) {
   .servicios2 {
-    display: none; } }
+    display: none; }
+  .areas {
+    display: flex; } }
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -118,11 +124,11 @@ header.abajo {
 @media (max-width: 360px) {
   .hero .info {
     margin-block-end: 5rem;
-    padding-block-end: 20rem; }
+    padding-block-end: 5rem; }
   .hero .info h2 img {
     display: none; }
   .hero {
-    max-height: 40vh; } }
+    max-height: 60vh; } }
 
 .why-us {
   display: none; }
