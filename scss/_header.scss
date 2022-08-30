@@ -1,0 +1,66 @@
+/*HEADER*/
+.header .logo img h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0;
+  font-family: var(--font-primary);
+  span {
+    color: var(--color-primary);
+  }
+}
+
+.img-header {
+  width: 100%;
+  height: 3rem;
+}
+
+.linea {
+  padding: 0.5rem;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 0.305);
+}
+
+.header-scrolled,
+.header-inner-pages {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header.abajo {
+  background: rgba(0, 0, 0, 0.856);
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+.areas {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .servicios2 {
+    display: none;
+  }
+
+  .areas {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicios2 {
+    display: none;
+  }
+
+  .areas {
+    display: flex;
+  }
+}
+
+@media (max-width: 425px) {
+  .servicios2 {
+    display: none;
+  }
+
+  .areas {
+    display: flex;
+  }
+}

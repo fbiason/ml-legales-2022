@@ -1,0 +1,69 @@
+/*AREAS PRACTICAS*/
+.services .service-item {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  background: #fff;
+  height: 24rem;
+  border-width: 0.1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #d7ccc8;
+
+  .icon {
+    height: 65px;
+    i {
+      color: #73695d;
+      font-size: 40px;
+      transition: ease-in-out 0.3s;
+      z-index: 2;
+      position: relative;
+      line-height: 1.8;
+    }
+    .imgServicios {
+      width: 50px;
+    }
+  }
+
+  h3 {
+    color: #73695d;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px solid #ebebed;
+    transition: 0.3s;
+  }
+
+  p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #73695d;
+  }
+}
+.services .service-item:hover .icon:before {
+  background: var(--color-primary);
+}
+
+.services .service-item:hover h3 {
+  border-color: var(--color-primary);
+}
+
+@media(max-width: 1200px){
+  .services .service-item{
+    height: 28rem;
+  }
+}
+@media (max-width: 992px) {
+  .services {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .services {
+    display: none;
+  }
+}
